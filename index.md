@@ -6,4 +6,5 @@ layout: home
 
 #### Publications
 - Extreme Chain-of-Spots in VisualRWKV for Multimodal Reasoning
-- Rendering Space Objects from Noisy Lightcurve with Kolmogorov-Arnold Network 
+- Denoising Lightcurve
+- Fusing NNUE-TrueSkill

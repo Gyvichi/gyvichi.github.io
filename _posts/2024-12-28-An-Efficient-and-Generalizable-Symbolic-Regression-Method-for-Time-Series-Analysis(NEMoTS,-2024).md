@@ -7,9 +7,6 @@ categories:
   - cd
 ---
 
-```yaml
-classes: wide
-```
 Abstract 내용이 너무 SF 같아서 읽게 되었다. 논문에서 제안하는 Neural-Enhanced MCTS(NEMoTS)는 MCTS로 주어진 시계열에 대한 symbolic regression을 수행한다. KAN과 같이 트리 구조로 수식을 나타내며, MCTS로 search space를 줄여 비선형 동역학계의 symbolic regression도 가능하다고 한다.  
 
 ### 1. Pipeline

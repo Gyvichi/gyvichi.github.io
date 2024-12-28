@@ -323,3 +323,4 @@ defaults:
       comments: true  # true
       share: true
       related: true
+      classes: wide 

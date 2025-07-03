@@ -13,7 +13,7 @@ redirect_from:
   <h2>Education</h2>
   <dl>
     <dt><strong>KAIST</strong> &nbsp; <span style="float:right;">2026-2029 (expected)</span></dt>
-    <dd> Undergraduate, Dept. of Semiconductor System Engineering</dd>
+    <dd> Bachelor, Dept. of Semiconductor System Engineering</dd>
   <dl>
   <dl>
     <dt><strong>Chungbuk Science High School</strong> &nbsp; <span style="float:right;">2023 – 2025</span></dt>

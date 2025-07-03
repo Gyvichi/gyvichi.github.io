@@ -12,8 +12,10 @@ redirect_from:
 <section id="education">
   <h2>Education</h2>
   <dl>
+    <dt><strong>KAIST</strong> &nbsp; <span stype="float:right;">2025-2029 (expected)</span></dt>
+    <dd> Undergraduate, Dept. of Semiconductor System Engineering</dd>
+  <dl>
     <dt><strong>Chungbuk Science High School</strong> &nbsp; <span style="float:right;">2023 – 2025</span></dt>
-    <dd>Specialized curriculum in mathematics and physical sciences. Ranked top 5% of class.</dd>
   </dl>
 </section>
 
@@ -30,17 +32,17 @@ redirect_from:
   <h2>Awards & Honors</h2>
   <ul>
     <li><strong>Regeneron ISEF 2024 Finalist</strong> – Physics & Astronomy Category (Los Angeles, USA)</li>
-    <li><strong>Genius Olympiad 2024 Qualifier</strong> – Artificial Intelligence Track</li>
-    <li><strong>Talent Award of Korea</strong> – National recognition for scientific potential (2025)</li>
+    <li><strong>Qualified to Genius Olympiad 2025</strong> – Artificial Intelligence Category</li>
+    <li><strong>2025 Talent Award of Korea</strong></li>
   </ul>
 </section>
 
 <section id="skills">
   <h2>Skills</h2>
   <ul>
-    <li><strong>Programming:</strong> Python, C++, JavaScript, HTML/CSS</li>
-    <li><strong>Tools & Libraries:</strong> PyTorch, TensorFlow, Scikit-learn, OpenCV</li>
-    <li><strong>Languages:</strong> Korean (native), English (fluent), Japanese (intermediate)</li>
+    <li><strong>Programming:</strong> Python, C++, Java</li>
+    <li><strong>Tools & Libraries:</strong> PyTorch, CUDA</li>
+    <li><strong>Languages:</strong> Korean (native), English (fluent)</li>
   </ul>
 </section>
 
@@ -49,13 +51,5 @@ redirect_from:
   <ul>
     <li><strong>Astrophysics Simulation Toolkit</strong> – Developed a real-time orbital mechanics simulator using RK4 and Python.</li>
     <li><strong>Battery SOH Estimation using EIS</strong> – Designed a PCB system to measure SOH using frequency response; finalist in national science fair.</li>
-  </ul>
-</section>
-
-<section id="extracurricular">
-  <h2>Extracurricular Activities</h2>
-  <ul>
-    <li><strong>Student Research Society</strong> – President; organized national-level AI research workshops.</li>
-    <li><strong>Debate Club</strong> – Captain; won regional championship 2024.</li>
   </ul>
 </section>

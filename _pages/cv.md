@@ -15,6 +15,7 @@ redirect_from:
     <dt><strong>KAIST</strong> &nbsp; <span style="float:right;">2026-2029 (expected)</span></dt>
     <dd> Undergraduate, Dept. of Semiconductor System Engineering</dd>
   <dl>
+  <dl>
     <dt><strong>Chungbuk Science High School</strong> &nbsp; <span style="float:right;">2023 – 2025</span></dt>
   </dl>
 </section>
@@ -49,7 +50,7 @@ redirect_from:
 <section id="skills">
   <h2>Skills</h2>
   <ul>
-    <li><strong>Programming:</strong> Python, C++, Java</li>
+    <li><strong>Problem Solving & Competitive Programming</strong>: AtCoder, solved.ac</li>
     <li><strong>Tools & Libraries:</strong> PyTorch, CUDA</li>
     <li><strong>Languages:</strong> Korean (native), English (fluent)</li>
   </ul>

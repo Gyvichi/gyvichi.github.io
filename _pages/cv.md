@@ -21,11 +21,19 @@ redirect_from:
 
 <section id="publications">
   <h2>Publications</h2>
+  <dl>
+    <dt>Chain-of-Spec : Multimodal Reasoning for Recurrent Memory Models</dt>
+    <dd>Minjun Jee, Seongjun Ahn</dd>
+  <dl>
+    <dt></dt>
+  </dl>
+<!--
   <ul>
     {% for post in site.publications reversed %}
       {% include archive-single-cv.html %}
     {% endfor %}
   </ul>
+-->
 </section>
 
 <section id="achievements">
@@ -34,6 +42,7 @@ redirect_from:
     <li><strong>Regeneron ISEF 2024 Finalist</strong> – Physics & Astronomy Category (Los Angeles, USA)</li>
     <li><strong>Qualified to Genius Olympiad 2025</strong> – Artificial Intelligence Category</li>
     <li><strong>2025 Talent Award of Korea</strong></li>
+    <li><strong>Silver Award, 2025 Samsung HumanTech Paper Award</strong> - Mathematics/Computing</li>
   </ul>
 </section>
 
@@ -52,3 +61,6 @@ redirect_from:
     <li><strong>Attention-Based Automated Trading System</strong> – High Frequency Trading Platform</li>
   </ul>
 </section>
+
+<section id="contact">
+

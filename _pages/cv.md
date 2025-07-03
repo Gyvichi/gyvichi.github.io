@@ -27,6 +27,7 @@ redirect_from:
   <dl>
     <dt></dt>
   </dl>
+</section>
 <!--
   <ul>
     {% for post in site.publications reversed %}
@@ -34,7 +35,6 @@ redirect_from:
     {% endfor %}
   </ul>
 -->
-</section>
 
 <section id="achievements">
   <h2>Awards & Honors</h2>

@@ -26,11 +26,10 @@ redirect_from:
     <dt>Chain-of-Spec : Multimodal Reasoning for Recurrent Memory Models</dt>
     <dd>Minjun Jee, Seongjun Ahn, 2025</dd>
   <dl>
-    <dt>3D reconstruction from compressive sensing</dt>
+    <dt>3D Reconstruction from Compressive Sensing</dt>
     <dd>Seongjun Ahn, 2025</dd>
   </dl>
 </section>
-  
 <!--
   <ul>
     {% for post in site.publications reversed %}
@@ -62,7 +61,7 @@ redirect_from:
   <h2>Selected Projects</h2>
   <ul>
     <li><strong>Attention-Based Automated Trading System</strong> – High Frequency Trading Platform</li>
-    <li><strong>Automatic Impedance-Matching Resistor Selection Circuit</strong> - 2023 KAIST Pre-SRP</li>
+    <li><strong></strong> &nbsp; <span style="float:right;">1st Pre</span></li>
   </ul>
 </section>
 

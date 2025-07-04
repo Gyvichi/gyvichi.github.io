@@ -13,7 +13,7 @@ redirect_from:
   <h2>Research Interests</h2>
   <ul>
     <li>Attention Mechanism</li>
-    <li></li>
+    <li>Memory Units</li>
   </ul>
 </section>
 

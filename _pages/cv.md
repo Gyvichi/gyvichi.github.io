@@ -9,6 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
+<section id="Research Interest">
+  <h2>Research Interests</h2>
+  <ul>
+    <li>Attention Mechanism</li>
+    <li></li>
+  </ul>
+</section>
+
 <section id="education">
   <h2>Education</h2>
   <dl>
@@ -27,7 +35,7 @@ redirect_from:
     <dd>Minjun Jee, Seongjun Ahn, 2025</dd>
   </dl>
   <dl>
-    <dt>3D Reconstruction from Compressive Sensing</dt>
+    <dt>Vibration Localization with Singular Value Decomposition</dt>
     <dd>Seongjun Ahn, 2025</dd>
   </dl>
 </section>
@@ -42,10 +50,10 @@ redirect_from:
 <section id="achievements">
   <h2>Awards & Honors</h2>
   <ul>
-    <li><strong>Regeneron ISEF 2024 Finalist</strong> – Physics & Astronomy Category (Los Angeles, USA)</li>
-    <li><strong>Qualified to Genius Olympiad 2025</strong> – Artificial Intelligence Category</li>
+    <li><strong>2024 Regeneron ISEF Finalist</strong> – Physics & Astronomy Category (Los Angeles, USA)</li>
+    <li><strong>Qualified to 2025 Genius Olympiad</strong> – Artificial Intelligence Category</li>
     <li><strong>2025 Talent Award of Korea</strong></li>
-    <li><strong>Silver Award, 32nd Samsung HumanTech Paper Award</strong> - Mathematics/Computing</li>
+    <li><strong>Silver Award, 2025 32nd Samsung HumanTech Paper Award</strong> - Mathematics/Computing</li>
   </ul>
 </section>
 
@@ -62,7 +70,7 @@ redirect_from:
   <h2>Selected Projects</h2>
   <ul>
     <li><strong>High-Frequency Trading System</strong> &nbsp; <span style="float:right;">Attention-based HFT</span></li>
-    <li><strong>Automatic Impedance-Matching Resistor Selection Circuit</strong> &nbsp; <span style="float:right;">1st KAIST Pre-SRP</span></li>
+    <li><strong>Automatic Impedance-Matching Resistor Selection Circuit</strong> &nbsp; <span style="float:right;">2023 KAIST Pre-SRP</span></li>
   </ul>
 </section>
 

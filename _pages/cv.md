@@ -14,7 +14,7 @@ redirect_from:
   <dl>
     <dt><strong>KAIST</strong> &nbsp; <span style="float:right;">2026-2029 (expected)</span></dt>
     <dd> Bachelor, Dept. of Semiconductor System Engineering</dd>
-  <dl>
+  </dl>
   <dl>
     <dt><strong>Chungbuk Science High School</strong> &nbsp; <span style="float:right;">2023 – 2025</span></dt>
   </dl>
@@ -25,6 +25,7 @@ redirect_from:
   <dl>
     <dt>Chain-of-Spec : Multimodal Reasoning for Recurrent Memory Models</dt>
     <dd>Minjun Jee, Seongjun Ahn, 2025</dd>
+  </dl>
   <dl>
     <dt>3D Reconstruction from Compressive Sensing</dt>
     <dd>Seongjun Ahn, 2025</dd>
@@ -60,8 +61,8 @@ redirect_from:
 <section id="projects">
   <h2>Selected Projects</h2>
   <ul>
-    <li><strong>Attention-Based Automated Trading System</strong> – High Frequency Trading Platform</li>
-    <li><strong></strong> &nbsp; <span style="float:right;">1st Pre</span></li>
+    <li><strong>High-Frequency Trading System</strong> &nbsp; <span style="float:right;">Attention-based HFT</span></li>
+    <li><strong>Automatic Impedance-Matching Resistor Selection Circuit</strong> &nbsp; <span style="float:right;">1st KAIST Pre-SRP</span></li>
   </ul>
 </section>
 

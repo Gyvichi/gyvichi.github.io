@@ -50,7 +50,7 @@ redirect_from:
 <section id="achievements">
   <h2>Awards & Honors</h2>
   <ul>
-    <li><strong>2024 Regeneron ISEF Finalist</strong> – Physics & Astronomy Category (Los Angeles, USA)</li>
+    <li><strong>2024 Regeneron ISEF Finalist</strong> – Physics & Astronomy Category/li>
     <li><strong>2025 Talent Award of Korea</strong></li>
     <li><strong>Silver Award, 2025 32nd Samsung HumanTech Paper Award</strong> - Mathematics/Computing</li>
     <li><strong>2025 Genius Olympiad Qualifier</strong></li>

@@ -51,9 +51,10 @@ redirect_from:
   <h2>Awards & Honors</h2>
   <ul>
     <li><strong>2024 Regeneron ISEF Finalist</strong> – Physics & Astronomy Category (Los Angeles, USA)</li>
-    <li><strong>Qualified to 2025 Genius Olympiad</strong> – Artificial Intelligence Category</li>
     <li><strong>2025 Talent Award of Korea</strong></li>
     <li><strong>Silver Award, 2025 32nd Samsung HumanTech Paper Award</strong> - Mathematics/Computing</li>
+    <dd>Chain-of-Spec : Multimodal Reasoning for Recurrent Model</dd>
+    <li><strong>2025 Genius Olympiad Qualifier</strong></li>
   </ul>
 </section>
 

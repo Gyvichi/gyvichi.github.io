@@ -53,7 +53,6 @@ redirect_from:
     <li><strong>2024 Regeneron ISEF Finalist</strong> – Physics & Astronomy Category (Los Angeles, USA)</li>
     <li><strong>2025 Talent Award of Korea</strong></li>
     <li><strong>Silver Award, 2025 32nd Samsung HumanTech Paper Award</strong> - Mathematics/Computing</li>
-    <dd>Chain-of-Spec : Multimodal Reasoning for Recurrent Model</dd>
     <li><strong>2025 Genius Olympiad Qualifier</strong></li>
   </ul>
 </section>

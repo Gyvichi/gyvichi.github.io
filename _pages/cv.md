@@ -69,7 +69,7 @@ redirect_from:
 <section id="projects">
   <h2>Selected Projects</h2>
   <ul>
-    <li><strong>High-Frequency Trading System</strong> &nbsp; <span style="float:right;">Attention-based HFT</span></li>
+    <li><strong>High-Frequency Trading Bot</strong> &nbsp; <span style="float:right;">Attention-based Trading Optimized and Written in C++</span></li>
     <li><strong>Automatic Impedance-Matching Resistor Selection Circuit</strong> &nbsp; <span style="float:right;">2023 KAIST Pre-SRP</span></li>
   </ul>
 </section>

@@ -13,16 +13,19 @@ redirect_from:
   <h2>Research Interests</h2>
   <ul>
     <li>Attention Mechanism</li>
+    <li>Transformer Variants</li>
     <li>Memory Units</li>
   </ul>
 </section>
 
 <section id="education">
   <h2>Education</h2>
+  <!--
   <dl>
     <dt><strong>KAIST</strong> &nbsp; <span style="float:right;">2026-2029 (expected)</span></dt>
     <dd> Bachelor, Dept. of Semiconductor System Engineering</dd>
   </dl>
+  -->
   <dl>
     <dt><strong>Chungbuk Science High School</strong> &nbsp; <span style="float:right;">2023 – 2025</span></dt>
   </dl>
@@ -51,8 +54,10 @@ redirect_from:
   <h2>Awards & Honors</h2>
   <ul>
     <li><strong>2024 Regeneron ISEF Finalist</strong> – Physics & Astronomy Category</li>
+    <!--
     <li><strong>2025 Talent Award of Korea</strong></li>
     <li><strong>Silver Award, 2025 32nd Samsung HumanTech Paper Award</strong> - Mathematics/Computing</li>
+    -->
     <li><strong>2025 Genius Olympiad Qualifier</strong></li>
   </ul>
 </section>
@@ -60,7 +65,7 @@ redirect_from:
 <section id="skills">
   <h2>Skills</h2>
   <ul>
-    <li><strong>Problem Solving & Competitive Programming</strong>: AtCoder, solved.ac</li>
+    <li><strong>Problem Solving & Competitive Programming</strong></li>
     <li><strong>Tools & Libraries:</strong> PyTorch, CUDA</li>
     <li><strong>Languages:</strong> Korean (native), English (fluent)</li>
   </ul>
@@ -75,4 +80,4 @@ redirect_from:
 </section>
 
 <section id="contact">
-
+<a href="mailto:seongjun0704a@gmail.com">

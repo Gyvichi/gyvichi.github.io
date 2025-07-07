@@ -1,0 +1,26 @@
+.cv-page section {
+  margin-bottom: 2.5rem;
+
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-bottom: 2px solid #444;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+
+  ul, dl {
+    margin-left: 1rem;
+    line-height: 1.6;
+  }
+
+  dt {
+    font-weight: 600;
+  }
+
+  dd {
+    margin-bottom: 0.8rem;
+    margin-left: 1rem;
+  }
+}

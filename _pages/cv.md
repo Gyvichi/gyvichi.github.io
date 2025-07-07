@@ -13,8 +13,8 @@ redirect_from:
   <h2>Research Interests</h2>
   <ul>
     <li>Attention Mechanism</li>
-    <li>Transformer Variants</li>
     <li>Memory Units</li>
+    <li>Spatial Computing</li>
   </ul>
 </section>
 

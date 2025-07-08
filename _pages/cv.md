@@ -18,7 +18,7 @@ redirect_from:
   </ul>
 </section>
 
-<section id="education">
+<section id="education" style = "margin-bottom: 2em;">
   <h2>Education</h2>
   <!--
   <dl>

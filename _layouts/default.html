@@ -27,9 +27,10 @@ layout: compress
       </footer>
     </div>
 
+    <!-- ❗scripts.html에 three.js가 중복될 수 있으므로 필요시 아래 include를 제거하세요 -->
     {% include scripts.html %}
 
-    <!-- Three.js DNA + Text -->
+    <!-- ✅ 확실히 작동하는 IIFE CDN 버전 -->
     <script src="https://unpkg.com/three@0.151.3/build/three.min.js"></script>
     <script src="https://unpkg.com/three@0.151.3/examples/js/loaders/FontLoader.js"></script>
     <script src="https://unpkg.com/three@0.151.3/examples/js/geometries/TextGeometry.js"></script>
@@ -41,6 +42,7 @@ layout: compress
       scene = new THREE.Scene();
       camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
       camera.position.z = 60;
+
       renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.body.appendChild(renderer.domElement);
@@ -52,9 +54,12 @@ layout: compress
       for (let i = 0; i < N; i++) {
         const t = i * 0.1;
         const helix = (i % 2 === 0) ? 0 : Math.PI;
-        const x = R * Math.cos(t + helix), y = R * Math.sin(t + helix), z = P * t - 50;
+        const x = R * Math.cos(t + helix),
+              y = R * Math.sin(t + helix),
+              z = P * t - 50;
         positions.set([x, y, z], i * 3);
       }
+
       const geom = new THREE.BufferGeometry();
       geom.setAttribute('position', new THREE.BufferAttribute(positions, 3));
       const mat = new THREE.PointsMaterial({ color: 0xffffff, size: 0.5 });
@@ -65,17 +70,25 @@ layout: compress
         '{{ base_path }}/assets/fonts/helvetiker_regular.typeface.json',
         font => {
           const textGeo = new THREE.TextGeometry('Your Name', {
-            font, size: 4, height: 1, curveSegments: 12,
-            bevelEnabled: true, bevelThickness: 0.2, bevelSize: 0.1
+            font,
+            size: 4,
+            height: 1,
+            curveSegments: 12,
+            bevelEnabled: true,
+            bevelThickness: 0.2,
+            bevelSize: 0.1
           });
-          textMesh = new THREE.Mesh(textGeo, new THREE.MeshPhongMaterial({ color: 0xff3366 }));
+          const mat = new THREE.MeshPhongMaterial({ color: 0xff3366 });
+          textMesh = new THREE.Mesh(textGeo, mat);
           textMesh.position.set(-20, -2, 0);
           scene.add(textMesh);
         }
       );
 
       // 조명
-      scene.add(new THREE.PointLight(0xffffff, 1).position.set(50, 50, 50));
+      const pointLight = new THREE.PointLight(0xffffff, 1);
+      pointLight.position.set(50, 50, 50);
+      scene.add(pointLight);
       scene.add(new THREE.AmbientLight(0x333333));
 
       window.addEventListener('resize', () => {

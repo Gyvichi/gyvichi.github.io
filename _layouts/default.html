@@ -27,10 +27,8 @@ layout: compress
       </footer>
     </div>
 
-    <!-- ❗scripts.html에 three.js가 중복될 수 있으므로 필요시 아래 include를 제거하세요 -->
-    {% include scripts.html %}
 
-    <!-- ✅ 확실히 작동하는 IIFE CDN 버전 -->
+    <!-- ✅ 안정적인 CDN 버전 -->
     <script src="https://unpkg.com/three@0.151.3/build/three.min.js"></script>
     <script src="https://unpkg.com/three@0.151.3/examples/js/loaders/FontLoader.js"></script>
     <script src="https://unpkg.com/three@0.151.3/examples/js/geometries/TextGeometry.js"></script>
@@ -78,17 +76,15 @@ layout: compress
             bevelThickness: 0.2,
             bevelSize: 0.1
           });
-          const mat = new THREE.MeshPhongMaterial({ color: 0xff3366 });
-          textMesh = new THREE.Mesh(textGeo, mat);
+          const textMat = new THREE.MeshPhongMaterial({ color: 0xff3366 });
+          textMesh = new THREE.Mesh(textGeo, textMat);
           textMesh.position.set(-20, -2, 0);
           scene.add(textMesh);
         }
       );
 
       // 조명
-      const pointLight = new THREE.PointLight(0xffffff, 1);
-      pointLight.position.set(50, 50, 50);
-      scene.add(pointLight);
+      scene.add(new THREE.PointLight(0xffffff, 1).position.set(50, 50, 50));
       scene.add(new THREE.AmbientLight(0x333333));
 
       window.addEventListener('resize', () => {
@@ -107,6 +103,5 @@ layout: compress
     init();
     animate();
     </script>
-
   </body>
 </html>
